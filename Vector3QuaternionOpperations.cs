@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -67,7 +67,6 @@ public static class Vector3QuaternionOpperations {
 	static public Vector2 CircleTheSquare(Vector2 vec){
 
 		float mag = vec.magnitude;
-
 		Vector2 norm = vec.normalized;
 
 		return new Vector2 (Mathf.Cos (silverRatio * norm.y) * norm.x, Mathf.Cos (silverRatio * norm.x) * norm.y);
@@ -222,5 +221,4 @@ public static class Vector3QuaternionOpperations {
 
 		return new Quaternion (x, y, z, w);
 	}
-
 }
